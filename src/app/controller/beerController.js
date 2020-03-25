@@ -1,3 +1,5 @@
+/*Vérifier*/ 
+
 const BeerDAO = require('../dao/beerDAO');
 const Beer = require('../model/beer');
 

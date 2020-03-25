@@ -1,3 +1,4 @@
+/*Non modifié donc vérifié */
 const Categorie = require('../model/categorie');
 
 const daoCommon = require('./commons/daoCommon');

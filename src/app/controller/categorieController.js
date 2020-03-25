@@ -1,3 +1,4 @@
+/* Pas modifié donc vérifier*/
 const CategorieDAO = require('../dao/categorieDAO');
 const Categorie = require('../model/categorie');
 

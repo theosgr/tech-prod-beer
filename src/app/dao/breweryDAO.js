@@ -1,3 +1,5 @@
+/*Vérifier*/ 
+
 const Brewery = require('../model/brewery');
 
 const daoCommon = require('./commons/daoCommon');
@@ -30,9 +32,11 @@ class BreweryDAO{
 
     };
 
+    /*
     findBreweryBeers(id){
         let sqlRequest ="SELECT beers FROM brewery WHERE id=$id";
     }
+    */
 
     //new
     findByCountry(country){

@@ -1,3 +1,4 @@
+/*Vérifier*/
 const StyleDAO = require('../dao/styleDAO');
 const Style = require('../model/style');
 

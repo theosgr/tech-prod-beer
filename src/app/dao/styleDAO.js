@@ -1,3 +1,5 @@
+/*Vérifier */
+
 const Style = require('../model/style');
 
 const daoCommon = require('./commons/daoCommon');

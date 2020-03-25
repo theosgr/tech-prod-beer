@@ -23,14 +23,6 @@ class BreweryDAO{
                 return brewery;
             })
             .catch(err=> console.log(err));
-
-
-            return this.commons.findAllWithParams(sqlRequest,sqlParams)
-            .then(rows => {
-                const beers = rows.map(row => new Beer(row));
-                return beers;
-            })
-            .catch(err=> console.log(err));
     };
 
     

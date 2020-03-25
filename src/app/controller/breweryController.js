@@ -1,3 +1,5 @@
+/*Vérifier */
+
 const BreweryDAO = require('../dao/breweryDAO');
 const Brewery = require('../model/brewery');
 
@@ -26,26 +28,28 @@ class BreweryController {
             .catch(this.common.findError(res));
     };
 
+    /*
     //new
     findBreweryBeers(req, res) {
         let id = req.params.id;
-        this.breweryDAO.findById(id)
+        this.breweryDAO.findBreweryBeers(id)
             .then(this.common.findSuccess(res))
             .catch(this.common.findError(res));
     };
+    */
 
     //new
     findByCountry(req, res) {
-        let id = req.params.country;
-        this.breweryDAO.findById(id)
+        let country = req.params.country;
+        this.breweryDAO.findByCountry(country)
             .then(this.common.findSuccess(res))
             .catch(this.common.findError(res));
     };
 
     //new
     findByState(req, res) {
-        let id = req.params.state;
-        this.breweryDAO.findById(id)
+        let state = req.params.state;
+        this.breweryDAO.findByState(state)
             .then(this.common.findSuccess(res))
             .catch(this.common.findError(res));
     };
